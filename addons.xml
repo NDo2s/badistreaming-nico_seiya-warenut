@@ -1,1 +1,17 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.tpstreaming"
+version="2.0.0"
+name="TP Streaming Video Plugin"
+provider-name="Nico-Seiya_WarenUT">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Video for Streaming</summary>
+  <description lang="en">A video plugin for Kodi mediacenter, during streaming classes.</description>
+  <disclaimer lang="en">Free sample videos are provided by localhost.fr.</disclaimer>
+</extension>
+</addon>
