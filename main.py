@@ -6,8 +6,9 @@ addon_handle = int(sys.argv[1])
 
 xbmcplugin.setContent(addon_handle, 'movies')
 
-url = 'http://www-igm.univ-mlv.fr/~badis/IR3/Streaming/backwaters.mpeg'
-li = xbmcgui.ListItem('BlackWaters from TP-Streaming!', iconImage='DefaultVideo.png')
+url = 'http://localhost/backwaters.mpeg'
+li = xbmcgui.ListItem('BackWaters from TP-Streaming!', iconImage='icon.png')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
 xbmcplugin.endOfDirectory(addon_handle)
+
