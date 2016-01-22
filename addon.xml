@@ -10,8 +10,10 @@ provider-name="Nico-Seiya_WarenUT">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
+  <platform>all</platform>
   <summary lang="en">Video for Streaming</summary>
   <description lang="en">A video plugin for Kodi mediacenter, during streaming classes.</description>
   <disclaimer lang="en">Free sample videos are provided by localhost.fr.</disclaimer>
 </extension>
 </addon>
+
