@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.tpstreaming"
-version="2.0.0"
-name="TP Streaming Video Plugin"
-provider-name="Nico-Seiya_WarenUT">
-<requires>
-  <import addon="xbmc.python" version="2.24.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <platform>all</platform>
-  <summary lang="en">Video for Streaming</summary>
-  <description lang="en">A video plugin for Kodi mediacenter, during streaming classes.</description>
-  <disclaimer lang="en">Free sample videos are provided by localhost.fr.</disclaimer>
-</extension>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="video.tp.streaming" name="TP Streaming Repo" version="1.0.0" provider-name="Nicolas Dos Santos - Thibaut Garcia - IR3">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">TP Streaming Repo - By IR3</summary>
+		<description lang="en">Launches the video given in parameter, either localized on your local machine or at an URL.
+		</description>
+		<license>GNU General Public License, v2</license>
+	</extension>
 </addon>
 
